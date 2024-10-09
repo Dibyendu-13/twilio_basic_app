@@ -34,26 +34,27 @@ This project implements a real-time audio processing application using Fastify, 
 git clone https://github.com/Dibyendu-13/twilio_basic_app
 cd twilio_basic_app
 ```
-Install dependencies:
+2. Install dependencies:
 ```
 npm install
 ```
-Create a .env file in the root directory and add your configuration:
+3. Create a .env file in the root directory and add your configuration:
 ```
 PORT=5050
 OPENAI_API_KEY=your_openai_api_key
 TWILIO_ACCOUNT_SID=your_twilio_account_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 ```
-Usage
+4. Usage
 Start the Fastify server:
 ```
 npm start
 ```
 The server will listen on the configured port (default is 5050).
-Use a service like ngrok to expose your local server to the internet:
+5. Use a service like ngrok to expose your local server to the internet:
 ```
 ngrok http 5050
 ```
 This will provide you with a public URL that Twilio can use to send media events.
-Configure Twilio to send audio events to the /twilio/events endpoint of your ngrok URL.
+
+6. Configure Twilio to send audio events to the /twilio/events endpoint of your ngrok URL.
