@@ -30,9 +30,10 @@ This project implements a real-time audio processing application using Fastify, 
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Dibyendu-13/twilio_basic_app
-   cd twilio_basic_app
+```
+git clone https://github.com/Dibyendu-13/twilio_basic_app
+cd twilio_basic_app
+```
 Install dependencies:
 ```
 npm install
