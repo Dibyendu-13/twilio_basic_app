@@ -51,6 +51,7 @@ Start the Fastify server:
 npm start
 ```
 The server will listen on the configured port (default is 5050).
+
 5. Use a service like ngrok to expose your local server to the internet:
 ```
 ngrok http 5050
